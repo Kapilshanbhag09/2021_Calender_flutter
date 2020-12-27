@@ -188,13 +188,16 @@ class April extends StatelessWidget {
                           ),
                           Container(
                             width: MediaQuery.of(context).size.width / 7.0,
+                            decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(10.0)),
                             alignment: Alignment.center,
                             child: Text(
                               "02",
                               style: TextStyle(
                                   fontSize: 30.0,
                                   fontWeight: FontWeight.bold,
-                                  color: Color(0xFFFFFFFF)),
+                                  color: Color(0xFF722569)),
                             ),
                           ),
                           Container(
@@ -341,6 +344,9 @@ class April extends StatelessWidget {
                             ),
                           ),
                           Container(
+                            decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(10.0)),
                             width: MediaQuery.of(context).size.width / 7.0,
                             alignment: Alignment.center,
                             child: Text(
@@ -348,7 +354,7 @@ class April extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 30.0,
                                   fontWeight: FontWeight.bold,
-                                  color: Color(0xFFFFFFFF)),
+                                  color: Color(0xFF722569)),
                             ),
                           ),
                           Container(
@@ -483,6 +489,9 @@ class April extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           Container(
+                            decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(10.0)),
                             width: MediaQuery.of(context).size.width / 7.0,
                             alignment: Alignment.center,
                             child: Text(
@@ -490,7 +499,7 @@ class April extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 30.0,
                                 fontWeight: FontWeight.bold,
-                                color: Color(0xFFFFFFFF),
+                                color: Color(0xFF722569),
                               ),
                             ),
                           ),

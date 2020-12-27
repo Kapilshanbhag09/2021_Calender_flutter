@@ -307,6 +307,9 @@ class August extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           Container(
+                            decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(10.0)),
                             width: MediaQuery.of(context).size.width / 7.0,
                             alignment: Alignment.center,
                             child: Text(
@@ -314,7 +317,7 @@ class August extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 30.0,
                                 fontWeight: FontWeight.bold,
-                                color: Color(0xFFFFFFFF),
+                                color: Color(0xFF8A0000),
                               ),
                             ),
                           ),
@@ -352,6 +355,9 @@ class August extends StatelessWidget {
                             ),
                           ),
                           Container(
+                            decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(10.0)),
                             width: MediaQuery.of(context).size.width / 7.0,
                             alignment: Alignment.center,
                             child: Text(
@@ -359,7 +365,7 @@ class August extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 30.0,
                                   fontWeight: FontWeight.bold,
-                                  color: Color(0xFFFFFFFF)),
+                                  color: Color(0xFF8A0000)),
                             ),
                           ),
                           Container(
@@ -495,6 +501,9 @@ class August extends StatelessWidget {
                             ),
                           ),
                           Container(
+                            decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(10.0)),
                             width: MediaQuery.of(context).size.width / 7.0,
                             alignment: Alignment.center,
                             child: Text(
@@ -502,7 +511,7 @@ class August extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 30.0,
                                   fontWeight: FontWeight.bold,
-                                  color: Color(0xFFFFFFFF)),
+                                  color: Color(0xFF8A0000)),
                             ),
                           ),
                           Container(
