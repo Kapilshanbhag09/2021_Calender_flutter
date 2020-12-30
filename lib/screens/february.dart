@@ -575,7 +575,7 @@ class February extends StatelessWidget {
                 margin: EdgeInsets.only(top: 10.0, bottom: 10.0),
                 alignment: Alignment.center,
                 child: Text(
-                  "HOLIDAYS",
+                  "EVENTS",
                   style: TextStyle(
                       fontSize: 35.0,
                       color: Color(0xFFD02F3E),
@@ -586,9 +586,250 @@ class February extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10.0),
                 color: Color(0xFFD02F3E),
               ),
-              height: 100.0,
+              margin: EdgeInsets.only(bottom: 10.0),
               width: MediaQuery.of(context).size.width,
-              child: Text("Holidays"),
+              child: Column(
+                children: <Widget>[
+                  //New Moon Container
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "12",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "New Moon",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Valentine Day
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "14",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Valentine's Day",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+
+                  //Vasanth Panchami Container
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "16",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Vasant Panchami",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Shivaji Jayanti Container
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "19",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Shivaji Jayanti",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Hazrat Alis Birthday Calender
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "26",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Hazarat Ali's Birthday",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Guru Ravidas Jayanti Calender
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "27",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Guru Ravidas Jayanti",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0, bottom: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "27",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Full Moon",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFFD02F3E),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                ],
+              ),
             ),
           ],
         ),
