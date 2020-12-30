@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Color(0xFFFF1744),
-          title: Text("2021 Calender"),
+          title: Text("2021 Indian Calender"),
         ),
         resizeToAvoidBottomInset: false,
         body: SingleChildScrollView(
