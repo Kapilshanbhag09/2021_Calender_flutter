@@ -584,15 +584,320 @@ class April extends StatelessWidget {
                       color: Color(0xFF722569),
                       fontWeight: FontWeight.bold),
                 )),
+            /*========================================================
+            =====================Holiday Container====================
+            =========================================================*/
+
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
                 color: Color(0xFF722569),
               ),
-              height: 100.0,
               width: MediaQuery.of(context).size.width,
-              child: Text("Holidays"),
               margin: const EdgeInsets.only(bottom: 10.0),
+              child: Column(
+                children: <Widget>[
+                  //Good Friday
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "02",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Good Friday",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  // Ambedkar Jayanti
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "14",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Ambedkar Jayanti",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Rama Navami
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0, bottom: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "25",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Rama Navami",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                ],
+              ),
+            ),
+            Container(
+                margin: EdgeInsets.only(top: 10.0, bottom: 10.0),
+                alignment: Alignment.center,
+                child: Text(
+                  "EVENTS",
+                  style: TextStyle(
+                      fontSize: 35.0,
+                      color: Color(0xFF722569),
+                      fontWeight: FontWeight.bold),
+                )),
+            /*========================================================
+            =====================Event Container====================
+            =========================================================*/
+
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10.0),
+                color: Color(0xFF722569),
+              ),
+              width: MediaQuery.of(context).size.width,
+              margin: const EdgeInsets.only(bottom: 10.0),
+              child: Column(
+                children: <Widget>[
+                  //Easter Day Container
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "04",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Easter Day",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+
+                  //New Moon Container
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "12",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "New Moon",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  // Chaitra Sukhladi Container
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "13",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Chaitra Sukhladi",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  // Vaisakhi Container
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "14",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            " Vaisakhi/ Mesadi",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Full Moon
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0, bottom: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "27",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Full Moon",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                ],
+              ),
             ),
           ],
         ),
