@@ -584,15 +584,283 @@ class August extends StatelessWidget {
                       color: Color(0xFF8A0000),
                       fontWeight: FontWeight.bold),
                 )),
+            /*========================================================
+                ==================Holidays Container========================
+                =========================================================*/
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
                 color: Color(0xFF8A0000),
               ),
-              height: 100.0,
               width: MediaQuery.of(context).size.width,
-              child: Text("Holidays"),
               margin: const EdgeInsets.only(bottom: 10.0),
+              child: Column(
+                children: [
+                  //Independence Day
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "15",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Independence day",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Muharram
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "19",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Muharram",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Janmashtami
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0, bottom: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "30",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Janmashtami",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                ],
+              ),
+            ),
+            Container(
+                margin: EdgeInsets.only(top: 10.0, bottom: 10.0),
+                alignment: Alignment.center,
+                child: Text(
+                  "EVENTS",
+                  style: TextStyle(
+                      fontSize: 35.0,
+                      color: Color(0xFF8A0000),
+                      fontWeight: FontWeight.bold),
+                )),
+            /*========================================================
+                ==================Events Container========================
+                =========================================================*/
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10.0),
+                color: Color(0xFF8A0000),
+              ),
+              width: MediaQuery.of(context).size.width,
+              margin: const EdgeInsets.only(bottom: 10.0),
+              child: Column(
+                children: [
+                  //New Moon
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "08",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "New Moon",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Onam
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "21",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Onam",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Raksha Bandhan
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "22",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Raksha Bandhan",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  //Full Moon
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0, bottom: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "22",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Full Moon",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF8A0000),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                ],
+              ),
             ),
           ],
         ),
