@@ -58,10 +58,19 @@ class HomePage extends StatelessWidget {
                   margin: const EdgeInsets.only(
                       left: 2.0, top: 9.0, bottom: 3.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    "January",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "January",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
 
@@ -84,10 +93,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    "February",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "February",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
 
@@ -110,10 +128,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    "March",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "March",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
 
@@ -136,10 +163,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    "April",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "April",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
 
@@ -162,10 +198,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    "May",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "May",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
               //June Container
@@ -187,10 +232,19 @@ class HomePage extends StatelessWidget {
                   height: 50.0,
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
-                  child: Text(
-                    "June",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "June",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
               //July Container
@@ -212,10 +266,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   height: 50.0,
-                  child: Text(
-                    "July",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "July",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
               //August Container
@@ -237,10 +300,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   height: 50.0,
-                  child: Text(
-                    "August",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "August",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
 
@@ -263,10 +335,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   height: 50.0,
-                  child: Text(
-                    "September",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "September",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
               //October Container
@@ -289,10 +370,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   height: 50.0,
-                  child: Text(
-                    "October",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "October",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
 
@@ -315,10 +405,19 @@ class HomePage extends StatelessWidget {
                   margin:
                       const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
                   height: 50.0,
-                  child: Text(
-                    "November",
-                    style: TextStyle(fontSize: 25.0, color: Colors.white),
-                  ),
+                  child: Row(children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.85,
+                      child: Text(
+                        "November",
+                        style: TextStyle(fontSize: 25.0, color: Colors.white),
+                      ),
+                    ),
+                    Container(
+                      child: Icon(IconData(60244, fontFamily: 'MaterialIcons'),
+                          color: Colors.white),
+                    )
+                  ]),
                 ),
               ),
               //December box
@@ -340,10 +439,20 @@ class HomePage extends StatelessWidget {
                         left: 2.0, bottom: 3.0, right: 2.0),
                     height: 50.0,
                     alignment: Alignment.centerLeft,
-                    child: Text(
-                      "December",
-                      style: TextStyle(fontSize: 25.0, color: Colors.white),
-                    ),
+                    child: Row(children: <Widget>[
+                      Container(
+                        width: MediaQuery.of(context).size.width * 0.85,
+                        child: Text(
+                          "December",
+                          style: TextStyle(fontSize: 25.0, color: Colors.white),
+                        ),
+                      ),
+                      Container(
+                        child: Icon(
+                            IconData(60244, fontFamily: 'MaterialIcons'),
+                            color: Colors.white),
+                      )
+                    ]),
                   )),
             ],
           ),
