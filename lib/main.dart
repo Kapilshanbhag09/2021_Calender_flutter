@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   height: 50.0,
                   margin: const EdgeInsets.only(
-                      left: 2.0, top: 9.0, bottom: 3.0, right: 2.0),
+                      left: 2.0, top: 9.0, bottom: 5.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
                   child: Row(children: <Widget>[
                     Container(
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   height: 50.0,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
                   child: Row(children: <Widget>[
                     Container(
@@ -126,7 +126,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   height: 50.0,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
                   child: Row(children: <Widget>[
                     Container(
@@ -161,7 +161,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   height: 50.0,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
                   child: Row(children: <Widget>[
                     Container(
@@ -196,7 +196,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   height: 50.0,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   width: MediaQuery.of(context).size.width,
                   child: Row(children: <Widget>[
                     Container(
@@ -231,7 +231,7 @@ class HomePage extends StatelessWidget {
                   width: MediaQuery.of(context).size.width,
                   height: 50.0,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   child: Row(children: <Widget>[
                     Container(
                       width: MediaQuery.of(context).size.width * 0.85,
@@ -264,7 +264,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   width: MediaQuery.of(context).size.width,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   height: 50.0,
                   child: Row(children: <Widget>[
                     Container(
@@ -298,7 +298,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   width: MediaQuery.of(context).size.width,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   height: 50.0,
                   child: Row(children: <Widget>[
                     Container(
@@ -333,7 +333,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   width: MediaQuery.of(context).size.width,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   height: 50.0,
                   child: Row(children: <Widget>[
                     Container(
@@ -368,7 +368,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   width: MediaQuery.of(context).size.width,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   height: 50.0,
                   child: Row(children: <Widget>[
                     Container(
@@ -403,7 +403,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   width: MediaQuery.of(context).size.width,
                   margin:
-                      const EdgeInsets.only(left: 2.0, bottom: 3.0, right: 2.0),
+                      const EdgeInsets.only(left: 2.0, bottom: 5.0, right: 2.0),
                   height: 50.0,
                   child: Row(children: <Widget>[
                     Container(
@@ -436,7 +436,7 @@ class HomePage extends StatelessWidget {
                     padding: EdgeInsets.only(left: 10.0),
                     width: MediaQuery.of(context).size.width,
                     margin: const EdgeInsets.only(
-                        left: 2.0, bottom: 3.0, right: 2.0),
+                        left: 2.0, bottom: 5.0, right: 2.0),
                     height: 50.0,
                     alignment: Alignment.centerLeft,
                     child: Row(children: <Widget>[
