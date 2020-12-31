@@ -458,7 +458,7 @@ class February extends StatelessWidget {
                           width: MediaQuery.of(context).size.width / 7.0,
                           alignment: Alignment.center,
                           child: Text(
-                            "27",
+                            "26",
                             style: TextStyle(
                                 fontSize: 30.0,
                                 fontWeight: FontWeight.bold,

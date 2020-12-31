@@ -622,7 +622,7 @@ class August extends StatelessWidget {
                           alignment: Alignment.centerLeft,
                           padding: EdgeInsets.only(left: 10.0),
                           child: Text(
-                            "Independence day",
+                            "Independence Day",
                             style: TextStyle(
                                 fontSize: 25.0,
                                 color: Color(0xFF8A0000),

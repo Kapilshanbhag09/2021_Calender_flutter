@@ -580,7 +580,7 @@ class May extends StatelessWidget {
                             width: MediaQuery.of(context).size.width / 7.0,
                             alignment: Alignment.center,
                             child: Text(
-                              "31",
+                              "30",
                               style: TextStyle(
                                 fontSize: 30.0,
                                 fontWeight: FontWeight.bold,

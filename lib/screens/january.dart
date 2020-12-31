@@ -754,7 +754,7 @@ class January extends StatelessWidget {
                           alignment: Alignment.centerLeft,
                           padding: EdgeInsets.only(left: 10.0),
                           child: Text(
-                            "Makara Sankarnati",
+                            "Makara Sankranti",
                             style: TextStyle(
                                 fontSize: 25.0,
                                 color: Color(0xFFFECB00),

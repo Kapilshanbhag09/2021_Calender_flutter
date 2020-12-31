@@ -435,6 +435,9 @@ class April extends StatelessWidget {
                             ),
                           ),
                           Container(
+                            decoration: BoxDecoration(
+                                color: Color(0xffffffff),
+                                borderRadius: BorderRadius.circular(10.0)),
                             width: MediaQuery.of(context).size.width / 7.0,
                             alignment: Alignment.center,
                             child: Text(
@@ -442,7 +445,7 @@ class April extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 30.0,
                                   fontWeight: FontWeight.bold,
-                                  color: Color(0xFFFFFFFF)),
+                                  color: Color(0xFF722569)),
                             ),
                           ),
                           Container(
@@ -673,6 +676,39 @@ class April extends StatelessWidget {
                       ),
                       width: MediaQuery.of(context).size.width,
                       margin: const EdgeInsets.only(
+                          left: 10.0, right: 10.0, top: 10.0),
+                      child: Row(children: <Widget>[
+                        Container(
+                          margin: const EdgeInsets.only(top: 7.0, bottom: 7.0),
+                          width: MediaQuery.of(context).size.width / 6.0,
+                          alignment: Alignment.center,
+                          child: Text(
+                            "21",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 10.0),
+                          child: Text(
+                            "Rama Navami",
+                            style: TextStyle(
+                                fontSize: 25.0,
+                                color: Color(0xFF722569),
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ])),
+                  Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: const EdgeInsets.only(
                           left: 10.0, right: 10.0, top: 10.0, bottom: 10.0),
                       child: Row(children: <Widget>[
                         Container(
@@ -691,7 +727,7 @@ class April extends StatelessWidget {
                           alignment: Alignment.centerLeft,
                           padding: EdgeInsets.only(left: 10.0),
                           child: Text(
-                            "Rama Navami",
+                            "Mahavir Jayanti",
                             style: TextStyle(
                                 fontSize: 25.0,
                                 color: Color(0xFF722569),

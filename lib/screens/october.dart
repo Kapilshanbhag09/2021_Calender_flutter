@@ -711,7 +711,7 @@ class October extends StatelessWidget {
                           alignment: Alignment.centerLeft,
                           padding: EdgeInsets.only(left: 10.0),
                           child: Text(
-                            "Gandhi Jayanthi",
+                            "Gandhi Jayanti",
                             style: TextStyle(
                                 fontSize: 25.0,
                                 color: Color(0xFFFF9B19),
